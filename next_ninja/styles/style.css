@@ -1,0 +1,60 @@
+html {
+    -webkit-tap-highlight-color: black;
+    -webkit-text-size-adjust: 100%;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Roboto, Helvetica Neue, Arial,
+      Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    line-height: 1.5;
+    tab-size: 4;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'PostNL Regular', sans-serif;
+    line-height: 24px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  h1,
+  h2,
+  p,
+  pre {
+    margin: 0;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentcolor;
+  }
+  
+  h1,
+  h2 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  a.date{
+    color: black ;
+    display: inline-block;
+  }
+  
+  a.tags{
+    border-radius: 9rem;
+    background: rgb(240, 248, 255);
+    padding: 0.1rem 2rem;
+  }
+  
+  #interaction{
+    display: inline-block;
+    margin: 0 0.2rem;
+  }
